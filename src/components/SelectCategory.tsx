@@ -20,12 +20,12 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
             {category}
           </button>
         ))}
-        <button
+        {/* <button
           className="select-btns"
           onClick={SelectCategoryProps.startRandomQuiz}
         >
           Random
-        </button>
+        </button> */}
       </div>
     </div>
   );

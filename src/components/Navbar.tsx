@@ -1,5 +1,5 @@
 import "../stylesheets/Navbar.css";
-import fccLogo from "../images/fcc_primary_large.webp";
+// import fccLogo from "../images/fcc_primary_large.webp";
 import React from "react";
 
 const Navbar = () => {
@@ -10,13 +10,15 @@ const Navbar = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://www.freecodecamp.org/"
+            href=""
+            // href="https://www.freecodecamp.org/"
           >
-            <img
+            HELLO ALL
+            {/* <img
               className="website-logo"
               src={fccLogo}
               alt="freeCodeCamp logo"
-            />
+            /> */}
           </a>
         </nav>
       </header>

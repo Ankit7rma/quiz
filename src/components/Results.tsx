@@ -12,8 +12,8 @@ const Results: React.FC<PointTotals> = ({
   totalQuestions,
   resetQuiz
 }: PointTotals) => {
-  const totalPercentageCorrect = (Math.floor(points) / totalQuestions) * 100;
-  const tweetMessage = `http://twitter.com/intent/tweet?text=I just scored ${totalPercentageCorrect}%25 on developerquiz.org. Wanna try it for yourself?&hashtags=freecodecamp`;
+  // const totalPercentageCorrect = (Math.floor(points) / totalQuestions) * 100;
+  // const tweetMessage = `http://twitter.com/intent/tweet?text=I just scored ${totalPercentageCorrect}%25 on developerquiz.org. Wanna try it for yourself?&hashtags=freecodecamp`;
 
   const [windowSize, setWindowSize] = useState({
     width: window.innerWidth,
@@ -65,7 +65,7 @@ const Results: React.FC<PointTotals> = ({
         {points === totalQuestions ? "Wow! Perfect Score!" : "You received"}{" "}
         {points} out of {totalQuestions} points
       </h2>
-      <p className="results-text">
+      {/* <p className="results-text">
         Wanna learn how to code? Download the free:&nbsp;
         <a
           className="results-rpg-link"
@@ -75,13 +75,13 @@ const Results: React.FC<PointTotals> = ({
         >
           RPG game
         </a>
-      </p>
+      </p> */}
 
       <button onClick={resetQuiz} className="results-btn">
         Play again?
       </button>
 
-      {totalPercentageCorrect >= 70 && (
+      {/* {totalPercentageCorrect >= 70 && (
         <a
           target="_blank"
           rel="noreferrer"
@@ -90,7 +90,7 @@ const Results: React.FC<PointTotals> = ({
         >
           <i className="fab fa-twitter" /> Tweet your quiz score
         </a>
-      )}
+      )} */}
     </div>
   );
 };

@@ -41,7 +41,7 @@ const WelcomePage: React.FC = () => {
 
         <hr className="featurette-divider" id="divider" />
 
-        <div
+        {/* <div
           className="row featurette content-row-container"
           style={{ backgroundColor: "#2a2a40", margin: "0" }}
         >
@@ -67,10 +67,10 @@ const WelcomePage: React.FC = () => {
               alt="freeCodeCamp rpg logo"
             />
           </div>
-        </div>
+        </div> */}
 
         <hr className="featurette-divider" id="divider" />
-
+        {/* 
         <div
           className="row featurette content-row-container"
           style={{ backgroundColor: "#0a0a23", margin: "0" }}
@@ -102,7 +102,7 @@ const WelcomePage: React.FC = () => {
               alt="freeCodeCamp rpg logo"
             />
           </div>
-        </div>
+        </div> */}
       </main>
     </>
   );

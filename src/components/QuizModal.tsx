@@ -39,17 +39,17 @@ const QuizModal: React.FC<QuizQuestion> = QuizQuestion => {
             <b>Answer:</b>
           </p>
           <p>{QuizQuestion.displayExplanation}</p>
-          <a
+          {/* <a
             className="modal-link"
             href={QuizQuestion.showReference}
             target="_blank"
             rel="noopener noreferrer"
           >
             Learn more with this helpful resource
-          </a>
+          </a> */}
           <br />
           <br />
-          <p>
+          {/* <p>
             Wanna learn how to code? <br /> Download the free{" "}
             <a
               className="modal-link"
@@ -59,7 +59,7 @@ const QuizModal: React.FC<QuizQuestion> = QuizQuestion => {
             >
               Learn to Code RPG game
             </a>
-          </p>
+          </p> */}
         </Modal.Body>
         <Modal.Footer>
           <button className="modal-btn" onClick={QuizQuestion.nextQuestion}>

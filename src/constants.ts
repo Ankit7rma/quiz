@@ -23,15 +23,15 @@ const mapQuizCategory = (quiz: any[], category: string) => {
 export const QUESTION_NUMS = [10, 25, 50, 100];
 
 export const CATEGORIES = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "Accessibility",
-  "General CS",
-  "IT",
-  "Linux",
-  "Python",
-  "SQL"
+  "HTML"
+  // "CSS",
+  // "JavaScript",
+  // "Accessibility",
+  // "General CS",
+  // "IT",
+  // "Linux",
+  // "Python",
+  // "SQL"
 ];
 
 export const ALL_CATEGORIES = [
